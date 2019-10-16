@@ -14,8 +14,7 @@ h1{
 	text-align: center;
 	font-size: 100px;
 	color:white}
-h2 {
-	font-family: "kaerukaeru", sans-serif;
+h2{font-family: "kaerukaeru", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
@@ -24,15 +23,24 @@ h2 {
 	color:white;
 	padding-top:5px;
 }
+h3{font-family: "kaerukaeru";
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	font-size: 50px;
+	color:#b9b5e5;}
+
 nav{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: center;
 	font-style: normal;
 	font-size: 70px;
 	padding-top:10px;
-	padding-bottom: 50px; 
-	position: fixed;
-	text-align: justify-all;}
+	padding-bottom: 50px;
+	position: absolute;
+	left: 30px
+
+	}
 
 .subpage{ 
 	font-family: neue-haas-unica, sans-serif;
@@ -44,7 +52,7 @@ nav{font-family: neue-haas-unica, sans-serif;
 	position: absolute;
 	top:250px;
 	left:-200px;
-	;}
+	}
 
 .astratus {background-image: url("../images/stratus.jpg");
 background-repeat: no-repeat;
@@ -61,8 +69,11 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-.c{justify-content: center;
-
+.c{padding-left: 40px;
+	padding-top: 20px;
+}
+.c img {	
+	width: 100px;
 }
 footer{position:absolute;
    bottom:0;
@@ -71,13 +82,7 @@ footer{position:absolute;
 .grid-container {
   display: grid;
 }
-.header
-	{
-        grid-area: header;
-    }
-
-hr {
-	width: 100%;
+hr {width: 100%;
 	background-color: white; 
 	height: 1px; 
 	border: 0;
@@ -121,7 +126,7 @@ a:hover {
   background-color: #;
   color: #;
 }
-.b{padding-top: 300px}
+.b{padding-top: 250px}
 .box {
   background-color: ;
   color: ;
