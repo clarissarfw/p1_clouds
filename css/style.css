@@ -7,38 +7,14 @@ url("../assets/kaerukaeru-Regular.woff2") format("woff2"),
 url("../assets/kaerukaeru-Regular.otf") format("otf");
 }
 
-.main {
-  background-image: url("https://i.imgur.com/m0moq8c.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 50% 35% 15%;
-  grid-gap: 10px;
-  background-color: #;
-  color: #;
-}
-
-.b{padding-top: 300px}
-
-.box {
-  background-color: ;
-  color: ;
-  padding:;
-}
-h1 {
-	padding: 30px 0 10px;
+h1{
+	padding: 200px 0 10px;
 	font-family: "kaerukaeru";
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
 	font-size: 100px;
-	color:white
-
-}
+	color:white}
 h2 {
 	font-family: "kaerukaeru", sans-serif;
 	font-weight: 400;
@@ -47,24 +23,20 @@ h2 {
 	font-size: 23px;
 	text-transform:uppercase;
 	color:white;
-	padding-top:10px;
+	padding-top:5px;
 }
-.scrollmenu {
-  overflow: auto;
-  white-space: nowrap;
-}
+
 nav{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: center;
-	position: absolute;
 	font-style: normal;
-	font-size: 30px;
-	padding-top:20px;
-	padding-bottom: 50px;
-	line-height: 50px; 
-	position: fixed;}
+	font-size: 73px;
+	padding-top:10px;
+	padding-bottom: 50px; 
+	position: fixed;
+	text-align: justify-all;}
 
-.subpagenav{ 
+.subpage{ 
 	font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -74,16 +46,36 @@ nav{font-family: neue-haas-unica, sans-serif;
 	position: absolute;
 	top:250px;
 	left:-200px;
+	;}
 
     }
-.a {background-image: url("https://i.imgur.com/Y7DhQ54.jpg");
+.astratus {background-image: url("https://i.imgur.com/71CfYyu.jpg");
 background-repeat: no-repeat;
   background-attachment: fixed;}
-    
-.c{
+
+.animbus {background-image: url("https://i.imgur.com/Etr82Ie.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}    
+.acumulus{background-image: url("https://i.imgur.com/QOvDSI7.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
+.acirrus{background-image: url("https://i.imgur.com/1wBhTZj.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
+
+.c{justify-content: center;
+
+}
+footer{position:absolute;
+   bottom:0;
+   width:100%;
+	padding-bottom: 10px}
+
+
 
 .grid-container {
   display: grid;
@@ -115,23 +107,41 @@ p{font-family: neue-haas-unica, sans-serif;
     }
 
 a:link {
-  color: white;}
+  color: #b9b5e5;}
 a:visited {
-  color: white;}
+  color: #b9b5e5;}
 a:link {
   text-decoration: none;
 }
-
 a:visited {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
-  color:#b9b5e5;
+  color: white;
 }
 
-a:active {
-  color: #b9b5e5;
+
+
+
+.main {
+  background-image: url("https://i.imgur.com/m0moq8c.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 35% 15%;
+  grid-gap: 10px;
+  background-color: #;
+  color: #;
 }
 
+.b{padding-top: 300px}
+
+.box {
+  background-color: ;
+  color: ;
+  padding:;
