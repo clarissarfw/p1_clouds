@@ -6,7 +6,6 @@ url("../assets/kaerukaeru-Regular.woff") format("woff"),
 url("../assets/kaerukaeru-Regular.woff2") format("woff2"),
 url("../assets/kaerukaeru-Regular.otf") format("otf");
 }
-
 h1{
 	padding: 200px 0 10px;
 	font-family: "kaerukaeru";
@@ -25,12 +24,11 @@ h2 {
 	color:white;
 	padding-top:5px;
 }
-
 nav{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: center;
 	font-style: normal;
-	font-size: 73px;
+	font-size: 70px;
 	padding-top:10px;
 	padding-bottom: 50px; 
 	position: fixed;
@@ -48,25 +46,21 @@ nav{font-family: neue-haas-unica, sans-serif;
 	left:-200px;
 	;}
 
-    }
-.astratus {background-image: url("https://i.imgur.com/71CfYyu.jpg");
+.astratus {background-image: url("../images/stratus.jpg");
 background-repeat: no-repeat;
   background-attachment: fixed;}
-
-.animbus {background-image: url("https://i.imgur.com/Etr82Ie.jpg");
+.animbus {background-image: url("../images/nimbus.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 }    
-.acumulus{background-image: url("https://i.imgur.com/QOvDSI7.jpg");
+.acumulus{background-image: url("../images/cumulus.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
-.acirrus{background-image: url("https://i.imgur.com/1wBhTZj.jpg");
+.acirrus{background-image: url("../images/cirrus.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
 .c{justify-content: center;
 
 }
@@ -74,9 +68,6 @@ footer{position:absolute;
    bottom:0;
    width:100%;
 	padding-bottom: 10px}
-
-
-
 .grid-container {
   display: grid;
 }
@@ -102,10 +93,7 @@ p{font-family: neue-haas-unica, sans-serif;
 	padding-bottom:;
 	overflow: scroll;
 	height: 310px; 
-
-
     }
-
 a:link {
   color: #b9b5e5;}
 a:visited {
@@ -120,16 +108,11 @@ a:hover {
   text-decoration: none;
   color: white;
 }
-
-
-
-
 .main {
   background-image: url("https://i.imgur.com/m0moq8c.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  
+  background-size: cover;  
 }
 .wrapper {
   display: grid;
@@ -138,9 +121,7 @@ a:hover {
   background-color: #;
   color: #;
 }
-
 .b{padding-top: 300px}
-
 .box {
   background-color: ;
   color: ;
