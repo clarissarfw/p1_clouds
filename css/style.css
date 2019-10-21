@@ -34,7 +34,7 @@ nav{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: center;
 	font-style: normal;
-	font-size: 70px;
+	font-size: 68px;
 	padding-top:10px;
 	padding-bottom: 50px;
 	position: absolute;
@@ -72,7 +72,7 @@ background-attachment: fixed;
 .c{padding-left: 40px;
 	padding-top: 20px;
 }
-.c img {	
+.c{background-image: url("../images/logo.png")	
 	width: 100px;
 }
 footer{position:absolute;
@@ -114,7 +114,7 @@ a:hover {
   color: white;
 }
 .main {
-  background-image: url("https://i.imgur.com/m0moq8c.jpg");
+  background-image: url("../images/nocloudsjpg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;  
