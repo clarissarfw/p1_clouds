@@ -69,8 +69,7 @@ background-attachment: fixed;
 .c{padding-left: 40px;
 	padding-top: 20px;
 }
-.c{background-image: url("../images/logo.png")	
-	width: 100px;
+.c img{	width: 100px;
 }
 footer{position:absolute;
    bottom:0;
