@@ -4,8 +4,7 @@ src: url("../assets/kaerukaeru-Regular.eot");
 src:
 url("../assets/kaerukaeru-Regular.woff") format("woff"),
 url("../assets/kaerukaeru-Regular.woff2") format("woff2"),
-url("../assets/kaerukaeru-Regular.otf") format("otf");
-}
+url("../assets/kaerukaeru-Regular.otf") format("otf");}
 h1{
 	padding: 125px 0 10px;
 	font-family: "kaerukaeru";
@@ -13,7 +12,8 @@ h1{
 	font-style: normal;
 	text-align: center;
 	font-size: 80px;
-	color:white}
+	color:white
+}
 h2{font-family: "kaerukaeru", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -22,14 +22,14 @@ h2{font-family: "kaerukaeru", sans-serif;
 	text-transform:uppercase;
 	color:white;
 	padding-top:5px;
-}
+	}
 h3{font-family: "kaerukaeru";
 	font-weight: 400;
 	font-style: normal;
 	text-align: left;
 	font-size: 50px;
-	color:#b9b5e5;}
-
+	color:#b9b5e5;
+	}
 nav{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: center;
@@ -39,53 +39,6 @@ nav{font-family: neue-haas-unica, sans-serif;
 	padding-bottom: 50px;
 
 	}
-
-.subpage{ 
-	font-family: neue-haas-unica, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 30px;
-	position: fixed;
-	transform: rotate(270deg);
-	position: absolute;
-	top:250px;
-	left:-200px;
-
-	}
-	{a: ac;}
-
-.astratus {background-image: url("../images/stratus.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;}
-.animbus {background-image: url("../images/nimbus.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-}    
-.acumulus{background-image: url("../images/cumulus.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-.acirrus{background-image: url("../images/cirrus.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-.c{padding-left: 40px;
-	padding-top: 20px;
-}
-.c img{width: 100px;
-}
-footer{position:absolute;
-   bottom:0;
-   width:100%;
-	padding-bottom: 10px}
-.grid-container {
-  display: grid;
-}
-hr {width: 100%;
-	background-color: white; 
-	height: 1px; 
-	border: 0;
-}
 p{font-family: neue-haas-unica, sans-serif;
 	font-weight: 400;
 	text-align: justify;
@@ -113,8 +66,50 @@ a:hover {
   color: white;
 }
 a:active {
-  background-color: #4CAF50;
-  color: white
+  color: white;
+}
+
+.subpage{ 
+	font-family: neue-haas-unica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	position: fixed;
+	transform: rotate(270deg);
+	position: absolute;
+	top:250px;
+	left:-200px; 
+	}
+footer{position:absolute;
+   bottom:0;
+   width:100%;
+	padding-bottom: 10px}
+hr {width: 100%;
+	background-color: white; 
+	height: 1px; 
+	border: 0;
+	}
+.astratus {background-image: url("../images/stratus.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.animbus {background-image: url("../images/nimbus.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}    
+.acumulus{background-image: url("../images/cumulus.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.acirrus{background-image: url("../images/cirrus.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.b{padding-top: 250px}
+.c{padding-left: 40px;
+	padding-top: 20px;
+}
+.c img{width: 100px;
 }
 .main {
   background-image: url("../images/nocloudsjpg.jpg");
@@ -129,8 +124,4 @@ a:active {
   background-color: #;
   color: #;
 }
-.b{padding-top: 250px}
-.box {
-  background-color: ;
-  color: ;
-  padding:;
+
